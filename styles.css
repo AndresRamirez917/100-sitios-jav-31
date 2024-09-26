@@ -11,6 +11,16 @@ html, body {
     scroll-behavior: smooth;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
 h1 {
     text-align: center;
     font-size: 3em;
@@ -79,11 +89,29 @@ form button {
     width: 100%;
 }
 
+form .form-control:focus {
+    outline:none;
+    border: 1px solid rgb(255, 0, 255);
+}
+
 .container {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 30px;
     overflow: auto;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:active {
+    text-decoration: underline;
+    color: violet;
+}
+
+::placeholder {
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    content: "\f007";
+    text-align: right;
 }
 
 /* mainheader */
