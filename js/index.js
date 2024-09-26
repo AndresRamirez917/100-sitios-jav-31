@@ -32,9 +32,9 @@ character.results.forEach(element => {
                 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
                 <div class="list">
                     <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis</li>
+                        <li>Origen: ${jsonArr[randIndex][6][1]["name"]}</li>
+                        <li>Especie: ${jsonArr[randIndex][3][1]}</li>
+                        <li>Género: ${jsonArr[randIndex][5][1]}</li>
                     </ul>
                 </div>
             </div>
