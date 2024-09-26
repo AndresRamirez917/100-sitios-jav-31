@@ -191,6 +191,13 @@ form .form-control:focus {
     padding: 30px;
 }
 
+.card img {
+    width: 50%;
+    height: 40vh;
+    display: block;
+    margin: 0 auto;
+}
+
 .card h3 {
     text-align: center;
     margin-bottom: 1em;
