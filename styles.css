@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 2em 0;
+    text-transform: uppercase;
+}
+
+p {
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+.btn {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+}
+
+.button-1 {
+    background: greenyellow;
+    color: #fff;
+}
+
+.button-1:hover {
+    background: rgb(135, 201, 37);
+}
+
+.button-2 {
+    background: violet;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.button-2:hover {
+    background: rgb(173, 95, 173);
+}
+
+form .form-group {
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+form .form-control {
+    background: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    overflow: auto;
+}
+
+/* mainheader */
+#mainheader {
+    background: url("/img/showcase.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainheader .logo {
+    margin: 2rem;
+    width: 200px;
+}
+
+#mainheader .navbar ul {
+    display: flex;
+  margin-top: 2rem;
+}
+
+#mainheader .navbar ul li {
+    display: inline;
+    margin-left: 2rem;
+  
+}
+
+#mainheader .navbar .container{
+    display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* .logo {
+   width: 250px;
+    height: 100%;
+    margin-top: 2em;
+    margin-left: 2em;
+} */
+
+#showcase h1 {
+    margin-top: 4em;
+    color: #fff;
+}
+
+#showcase p {
+    margin-bottom: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+#showcase .button-1{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2em; 
+}
+
+
+/* features */
+#features {
+    background: #fff;
+}
+
+.features-row {
+    display: flex;
+}
+
+.card .material-icons {
+    display: block;
+    text-align: center;
+    font-size: 120px;
+   margin: 0 auto;
+   color: red;
+}
+
+.card {
+    padding: 30px;
+}
+
+.card h3 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* contact */
+#contact {
+    background: rgb(60, 63, 235);
+    color: #fff;
+}
+
+#contact form{
+   float: left;
+   width: 40%;
+}
+
+#disclaimer h2 {
+    margin: 1em 0;
+}
+
+
+/* tutorial */
+#tutorial {
+    background: orangered;
+    color: #fff;
+}
+
+.video, p {
+    text-align: center;
+   margin-bottom: 1em;
+}
+
+/* footer */
+#footer {
+    background: orangered;
+text-align: center;
+padding: 3em;
+}
